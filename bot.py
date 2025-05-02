@@ -195,5 +195,5 @@ async def stay_alive():
         await asyncio.sleep(5)
         print("✅ Bot ciągle działa!")
 
-TOKEN = os.getenv("MTM2MjgzOTg5NTkwNjk3NjEzNQ.GmJ5et.3rQ8AyCjvnl_ueevNdormjjo2mTyzSVah-7bco")
+TOKEN = os.getenv("DISCORD_TOKEN")
 bot.run(TOKEN)
